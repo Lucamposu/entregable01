@@ -54,7 +54,11 @@ input{
     grid-area: imgLogo;
     height: 80px;
     text-align: center;
-     
+    transition: 1s;
+}
+
+.imgLogo:hover{
+    transform: scale(1.2);
 }
 
 .sesion{
@@ -304,6 +308,11 @@ main{
 
 .productosVole img{
     height: 400px;
+    transition: 1s;
+}
+
+.productosVole img:hover{
+    transform: scale(1.05);
 }
 
 .productosVole h2{
@@ -340,14 +349,29 @@ main{
 .almohadones{
     width: 100%;
     grid-row: span 2;
+    transition: 1s;
+}
+
+.almohadones:hover {
+    transform: scale(1.05);
 }
 
 .mantas{
     width: 100%;
+    transition: 1s;
+}
+
+.mantas:hover{
+    transform: scale(1.05);
 }
 
 .cestos{
     width: 100%;
+    transition: 1s;
+}
+
+.cestos:hover{
+    transform: scale(1.05);
 }
 
 
@@ -369,6 +393,7 @@ main{
 
 .prodDestacado img{
     height: 350px;
+    transition: 1s;
 }
 
 .prodDestacado h2{
@@ -383,6 +408,12 @@ main{
 .prodDestacado div{
     border: 1px solid #C1B0A0;
     box-shadow: 0px 5px 10px grey;
+    
+}
+
+.prodDestacado div :hover{
+    transform: scale(1.05);
+
 }
 
 .mensajeFin{
@@ -752,5 +783,34 @@ footer{
 
 }
 
+@media only screen and (max-width: 480px){
+    
+    .menu ul li{
+        font-size: 12px;
+    }
+
+    .beneVole img{
+        height: 40px;
+    }
+
+    .nombreContact input{
+        width: 400px;
+    }
+
+    .emailContact input{
+        width: 400px;   
+    }
+    
+    .telefonoContact input{
+        width: 400px;
+    }
+    
+    .mensajeContact{
+        width: 400px;
+    }
+    
+}   
+
+    
 
 
