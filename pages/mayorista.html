@@ -13,83 +13,92 @@
 </head>
 
 <body>
-<!--inicio de encabezado. menu navegacion.-->
-    <header class="conteiner ">
-        <div class="row">
-            <h1 class="col-12"> -Envio gratis en tu compra mayor a $6000- </h1>
-        </div>
-        <div class="row align-items-center justify-content-between headerMayo">
-            <form class="col-4" action="">
-                <div >
+<!--inicio encabezado. menu navegacion-->
+    <header class="headerVole">
+        <h1> -Envio gratis en tu compra mayor a $6000- </h1>
+
+        <div class="encabezadoLogo">
+         <form action="">
+              <div class="inputBuscar">
                     <input type="text" name="buscar" placeholder="Buscar">
                     <img src="../img/lupa.png" alt="img lupa">
                 </div>
             </form>
-    
-            <div class="col-4">
-                <a href="../index.html">
-                    <img class="imgLogo" src="../img/logo.png" alt="logo vole home">
-                </a>
+
+         <div>
+              <a href="../index.html">
+                 <img class="imgLogo" src="../img/logo.png" alt="logo vole home">
+             </a>
             </div>
 
-            <div class="sesion col-4">
-                <h2 class="crearCuenta">crear cuenta</h2>
-                <h2 class="sesionVole">iniciar sesion </h2>
-                <img src="../img/carrito.png" alt="img carrito compras">
+        <div class="sesion">
+             <h2 class="crearCuenta">crear cuenta</h2>
+             <h2 class="sesionVole">iniciar sesion </h2>
+             <img src="../img/carrito.png" alt="img carrito compras">
             </div>
-        </div>
-
-        <div class="row justify-content-center">
-            <nav class="navbar navbar-expand-lg navbar-light col-4">
-                <div class="container">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 col-8">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="../pages/productos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Productos
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Almohadones</a></li>
-                            <li><a class="dropdown-item" href="#">Mantas</a></li>
-                            <li><a class="dropdown-item" href="#">Cesteria</a></li> 
-                        </ul>
-                        </li>  
-                        <li class="nav-item">
-                            <a class="nav-link"  href="../pages/nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-                       </li>
-                  
-                        <li class="nav-item nav-mayorista">
-                            <a class="nav-link active" href="../pages/mayorista.html">Mayorista</a>
-                        </li>
-                    </ul>    
-                </div>
-            </nav>
         </div>
     </header>
+
+    <!--menu bootstrap-->
+    <nav class="navbar navbar-expand-md navbar-light ">
+        <div class="container-fluid d-flex justify-content-center menuNav">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <ul class="navbar-nav col-4">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/pages/productos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Productos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="../pages/productos.html">Almohadones</a></li>
+                        <li><a class="dropdown-item" href="#">Mantas</a></li>
+                        <li><a class="dropdown-item" href="#">Cesteria</a></li> 
+                    </ul>
+                </li>  
+                <li class="nav-item">
+                    <a class="nav-link"  href="../pages/nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                </li>
+                  
+                <li class="nav-item nav-mayorista">
+                    <a class="nav-link active" href="../pages/mayorista.html">Mayorista</a>
+                </li>
+            </ul>    
+        </div>
+    </nav>
+        
+    
 <!--fin de encabezado-->
 <!--inicio informacion principal de la pagina-->
-    <main class="conteiner">
+    <main class="conteiner ">
         <div class="row">
              <img class="col-12" src="../img/producto4.png" alt="portada mayorista">
         </div>
-        <div class="row mainMayorista">
-            <h2 class="col-8 "> ¿ Te Interesa revender productos Volé Home? </h2>
-            <p class="col-12">
-            Solicitá nuestro catalogo mayorista enviandonos un mensaje a volehomedeco@gmail.com con el asunto <b>VENTA MAYORISTA</b>, contanos tu idea y tus objetivos al incorporar nuestros productos a tu local/emprendimiento.<br> En Volé no solo buscamos revender nuestros productos, si no que tratamos de expandirnos y ofrecer una experiencia completa a la hora de incorporar nuevos revendedores, nuestro objetivo principal es que puedan vender los productos con la misma motivacion y amor que nosotras sentimos a la hora de hacerlos.<br>
-            Crear una comunidad entre  nosotros en la que se puedan transmitir los valores que tenemos en Volé a traves de los productos, y tambien buscar el punto en el que podamos conectar, compartir y comunicar bajo el mismo proposito. <br>
-            Si te interesa nuestra propuesta te vamos a estar enviando nuestro catalogo acompañado de las condiciones de compra. 
-            </p>
+        <div class="conteiner mainMayorista">
+            <div class="row mainMayo">
+                <h2 class="col-12 "> ¿ Te Interesa revender productos Volé Home? </h2>
+            </div>
+        </div>
+        <div class="conteiner mainMayo">
+            <div class="row mainMayo"></div>
+                <p class="col-11">
+                Solicitá nuestro catalogo mayorista enviandonos un mensaje a volehomedeco@gmail.com con el asunto<b>VENTA MAYORISTA</b>, contanos tu idea y tus objetivos al incorporar nuestros productos a tu local/emprendimiento.<br> En Volé no solo buscamos revender nuestros productos, si no que tratamos de expandirnos y ofrecer una experiencia completa a la hora de incorporar nuevos revendedores, nuestro objetivo principal es que puedan vender los productos con la misma motivacion y amor que nosotras sentimos a la hora de hacerlos.<br>
+                Crear una comunidad entre  nosotros en la que se puedan transmitir los valores que tenemos en Volé a traves de los productos, y tambien buscar el punto en el que podamos conectar, compartir y comunicar bajo el mismo proposito. <br>
+                Si te interesa nuestra propuesta te vamos a estar enviando nuestro catalogo acompañado de las condiciones de compra. 
+                </p>
+            </div>
         </div>
     </main>
 <!--fin de informacion importante-->
 <!--inicio pie de pagina-->
-    <footer class="conteiner footerMayo">
-        <div class="row justify-content-around align-items-start ">
+    <footer class="container-fluid footerVole">
+        <div class="row">
             <div class="col-4 navFooter ">
                 <h2>navegacion</h2>
                 <ul>
@@ -124,6 +133,10 @@
                 <div>
                     <img class="faceBook" src="../img/facebook.png" alt="facebook">
                     <img class="instaGram" src="../img/instagram.png" alt="instagram">
+                </div>
+                <div>
+                    <h3>news letter</h3>
+                    <a href="../pages/contacto.html">registrate y recibi novedades! </a>
                 </div>
             </div>
             
